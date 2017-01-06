@@ -1,0 +1,222 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.KV
+|   02.背景
+|   03.パーソナルデータ
+|   04.新着記事
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+        01.KV
+--------------------*/
+.kv{
+    background: url(./../img/top_fv-main.png) no-repeat center center scroll;
+    background-size: cover;
+    height: 45rem;
+}
+
+/*--------------------
+       02.背景
+--------------------*/
+.about__area {
+    margin:10rem 0;
+    padding: 3rem 10rem;
+}
+@media screen and (max-width: 768px) {
+  .about__area {
+      padding: 1rem;
+  }
+}
+.about__area__title{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+.about__area__content{
+    font-size:1.5rem;
+    line-height:2.5rem;
+    margin:5rem 2rem;
+}
+.about__area__content__state{
+    border: 2px solid #333;
+	border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+    display: inline-block;
+	padding: .2em 2.5em;
+	text-decoration: none;
+	text-align: center;
+}
+.about__area__data{
+    background: #F0F0F0;
+    padding:2rem 5rem;
+}
+@media screen and (max-width: 768px) {
+  .about__area___data {
+      padding: 2rem 1rem;
+  }
+}
+.about__area__data__title{
+    border-bottom: 1px solid #2e2e2e;
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+.about__area__data__description{
+    font-size: 1.3rem;
+}
+.about__area__data__attention{
+    font-size: 1rem;
+}
+.about__area__data__chart{
+    padding: 2rem 5rem;
+}
+@media screen and (max-width: 400px) {
+    .about__area__data__chart{
+        padding: 0;
+    }
+}
+
+
+/*--------------------
+  03.パーソナルデータ
+--------------------*/
+.parsonalData{
+    background: #FFF;
+}
+.parsonalData__title{
+    color:#666;
+    font-size: 3rem;
+    margin:6rem 0 3rem;
+}
+.parsonalData__content{
+    margin:5rem 5rem 2rem;
+}
+@media screen and (max-width: 767px) {
+    .parsonalData__content{
+        margin:2rem;
+    }
+}
+.parsonalData__content div{
+    color:#fff;
+    display: block;
+    height:33rem;
+    margin:1rem;
+    text-align: center;
+    width:33rem;
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    .parsonalData__content div{
+        height:30rem;
+        width:30rem;
+    }
+}
+@media screen and (max-width: 767px) {
+    .parsonalData__content div{
+        height:25rem;
+        margin:0 auto;
+        width:32rem;
+    }
+}
+.parsonalData__content__block--discovery{
+    background: #7FC616;
+}
+.parsonalData__content__block--shine{
+    background: #F0D848;
+}
+.parsonalData__content__block--sex{
+    background: #FF1493;
+}
+.parsonalData__content__block--love{
+    background: #EB1010;
+}
+.parsonalData__content__block__name{
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5rem 0 3rem; 
+}
+@media screen and (max-width: 767px) {
+    .parsonalData__content__block__name{
+        margin:2rem 0;
+        padding: 2rem 0 0;
+    }
+}
+.parsonalData__content__block__count{
+    font-size: 3rem;
+    line-height: 12rem;
+    padding: 0 0 0 2rem;
+}
+.parsonalData__content__block__count__emphasis{
+    font-size: 15rem;
+}
+.parsonalData__attention{
+    font-size: 1.3rem;
+    margin: 0 0 4rem 4.5rem;
+}
+@media screen and (max-width: 400px) {
+  .parsonalData__attention {
+    margin: 0 0 4rem 1.2rem;
+  }
+}
+
+/*--------------------
+     04.新着記事
+--------------------*/
+.newArticle {
+    padding: 3em 0;
+}
+.newArticle__containar{
+    margin-bottom: 3rem;
+}
+.newArticle__title__txt{
+    border-bottom: 2px solid #2e2e2e;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.newArticle__containar__item {
+  background: #ffffff;
+  margin-bottom: 2rem;
+}
+.newArticle__containar__item__text,
+.newArticle__containar__item__img {
+    height: 300px;
+    width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .newArticle__containar__item__text,
+  .newArticle__containar__item__img {
+    float: none !important;
+    height: inherit;
+    width: 100%;
+  }
+}
+.newArticle__containar__item__img {
+    background-size: cover;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+  .newArticle__containar__item__img {
+    height: 200px;
+  }
+}
+.newArticle__containar__item__text {
+    background: #fff;
+    float: right;
+    padding: 20px;
+}
+.newArticle__containar__item__text__title {
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 10px;
+}
+.newArticle__containar__item__text__title__border {
+    background: #7ee383;
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}

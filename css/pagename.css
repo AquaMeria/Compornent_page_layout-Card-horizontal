@@ -1,0 +1,70 @@
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+┏┓
+┗■ INDEX
+
+|   01.カード型レイアウト
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+
+/*--------------------
+  01.カード型レイアウト
+--------------------*/
+.card {
+    padding: 3em 0;
+}
+.card__containar{
+    margin-bottom: 3rem;
+}
+.card__title__txt{
+    border-bottom: 2px solid #2e2e2e;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+}
+.card__containar__item {
+  background: #ffffff;
+  margin-bottom: 2rem;
+}
+.card__containar__item__text,
+.card__containar__item__img {
+    height: 300px;
+    width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .card__containar__item__text,
+  .card__containar__item__img {
+    float: none !important;
+    height: inherit;
+    width: 100%;
+  }
+}
+.card__containar__item__img {
+    background-size: cover;
+    float: left;
+}
+@media screen and (max-width: 768px) {
+  .card__containar__item__img {
+    height: 200px;
+  }
+}
+.card__containar__item__text {
+    background: #fff;
+    float: right;
+    padding: 20px;
+}
+.card__containar__item__text__title {
+    margin-top: 0;
+    position: relative;
+    padding-bottom: 10px;
+}
+.card__containar__item__text__title__border {
+    background: #7ee383;
+    bottom: 0;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    width: 30px;
+}
