@@ -33,6 +33,6 @@
 　│　├ footer.php … フッター共通パーツ  
 　│　├ functions.php … 外部ファイル出し訳  
 　│　├ header.php … ヘッダー共通パーツ  
-　│　└ index.php … 水平型カードレイアウト 
-　│ 
+　│　└ index.php … 水平型カードレイアウト  
+　│  
 　└ index.html
