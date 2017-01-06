@@ -1,0 +1,2 @@
+# Compornent_page_layout-Card-horizontal
+カードレイアウト水平型のコンポーネント
